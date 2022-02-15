@@ -4,7 +4,7 @@ kunli3
 
 How to run test:
 
-1. replace `LLVMROOT` in tests/Makefile
+1. replace `LLVMROOT` in tests/Makefile and `LLVM_DIR` in CMakeLists.txt
 
 1. `mkdir build && cd build`
 
