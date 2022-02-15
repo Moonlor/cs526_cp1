@@ -1,0 +1,9 @@
+1. Build LLVM (8.0.1) and Clang in a separate directory 
+2. Build the SROA pass using CMake; good tutorial of building LLVM passes out-of-source can be found here:
+https://www.cs.cornell.edu/~asampson/blog/llvm.html
+3. Make sure that you change instances with `netid` to your netid (e.g. change scalarrepl-netid to scalarrepl-<your id>).
+These changes may need to be done in Makefiles as well as in source files.
+4. Implement SROA pass according to the guidelines in the handout.
+5. Run tests
+6. Please test for functionality, interaction with different pass pipelines and include your own tests with the submission according to the
+format suggested in the handout.
